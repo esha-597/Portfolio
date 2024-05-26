@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #cac2c2; /* Light Gray */
+            color: #2F4F4F; /* Dark Slate Gray */
+        }
+
+        .navbar {
+            background-color: #085252; /* Teal */
+        }       
+        
+        .header {
+            background-image: url("hi.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.85;
+            color: #f7f6f5; /* Gold */
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .portfolio {
+            color:white;
+            padding-top: 0.7%;
+            font-size: 1.2rem;
+        }        
+        .header .container {
+            max-width: 700px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+        }
+
+        .header p {
+            font-size: 1.5rem;
+        }
+
+        .py-5 {
+            padding: 60px 0;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #008080; /* Teal */
+        }
+
+        hr {
+            border-top: 2px solid #FF6F61; /* Coral */
+            width: 50px;
+            margin: 0 auto 40px;
+        }
+
+        .card {
+            margin-top: 20px;
+            border: 1px solid #FF6F61; /* Coral */
+        }
+
+        .card .btn-primary {
+            background-color: #008080; /* Teal */
+            border-color: #008080; /* Teal */
+        }
+
+        .card .btn-primary:hover {
+            background-color: #FF6F61; /* Coral */
+            border-color: #FF6F61; /* Coral */
+        }
+
+        .bg-light {
+            background-color: #F5F5F5; /* Light Gray */
+        }
+
+        .bg-dark {
+            background-color: #2F4F4F; /* Dark Slate Gray */
+            color: #FFD700; /* Gold */
+        }
+
+        .btn-primary {
+            background-color: #008080; /* Teal */
+            border-color: #008080; /* Teal */
+        }
+
+        .btn-primary:hover {
+            background-color: #FF6F61; /* Coral */
+            border-color: #FF6F61; /* Coral */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <p class="portfolio">Esha's Portfolio</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header" id="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4">Hello, I'm Esha Aslam</h1>
+                    <p class="lead">A passionate developer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div id="education" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Education</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Matriculation</h3>
+                    <h4>Computer Science</h4>
+                    <p>Ahsan Grammar School, 2019</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Intermediate</h3>
+                    <h4>Pre-Engineering</h4>
+                    <p>Apex College, 2021</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Bachelor of Science </h3>
+                    <h4>Computer Science</h4>
+                    <p>University of Management and Technology Lahore, 2025</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Programming Languages</h3>
+                    <p>JavaScript, Python, C++</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Experience</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Web Developer</h3>
+                    <ul>
+                        <li>Proficient in HTML, CSS, and JavaScript, with a focus on creating responsive and user-friendly websites.</li>
+                        <li>Experienced in using frameworks like Bootstrap for front-end development.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h3>Designer</h3>
+                    <ul>
+                        <li>Understanding of design principles, color theory,and layout composition to enhance user experience.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Project One</h5>
+                        <p class="card-text">Description of the project.</p>
+                        <a href="https://github.com/yourusername/project1" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Two</h5>
+                        <p class="card-text">Description of the project.</p>
+                        <a href="https://github.com/yourusername/project2" class="btn btn-primary" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact</h2>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="text-center py-4 bg-dark text-white">
+        <div class="container">
+            <p>&copy; 2024 Esha's Portfolio. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
